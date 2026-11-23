@@ -1,6 +1,16 @@
-# Nova Island
+# GHOST // Shadow Protocol
 
-ZIP taraması kaldırılmış, hızlı açılan tarayıcı 3D nişancı prototipi.
+GHOST, kapsamlı tarayıcı tabanlı operasyon nişancı oyunudur.
+
+## Özellikler
+
+- Büyük neon gece operasyon bölgesi
+- Dalga tabanlı düşman sistemleri
+- Hareketli zırhlı düşmanlar
+- Sağlık, mühimmat, eline göre puan sistemi
+- Masaüstü ve mobil kontroller
+- Güvenli ışın, neon çevre ve sinematik HUD
+- Minimal CDN bağımlılığı
 
 ## Çalıştırma
 
@@ -8,18 +18,14 @@ ZIP taraması kaldırılmış, hızlı açılan tarayıcı 3D nişancı prototip
 python3 -m http.server 8080
 ```
 
-Sonra `http://localhost:8080` adresini açın.
+Ardından `http://localhost:8080` adresini açın.
 
 ## Kontroller
 
-- WASD: Hareket
-- Fare: Bakış
-- Sol tık: Ateş
-- Boşluk: Zıpla
-- Shift: Koş
-- R: Şarjör doldur
-- Mobil: Dokunmatik joystick ve butonlar
-
-## Asset paketleri
-
-Depodaki ZIP paketleri korundu. Hazır `.glb` veya `.gltf` asset dosyaları `assets/characters`, `assets/weapons` ve `assets/environment` klasörlerine eklenirse oyun otomatik olarak bu dosyaları genişletebilir.
+- **WASD**: Hareket
+- **Mouse**: Bakış
+- **Sol Tık**: Ateş
+- **Boşluk**: Zıpla
+- **Shift**: Koş
+- **R**: Şarjör
+- **E**: Yedek mühimmat
